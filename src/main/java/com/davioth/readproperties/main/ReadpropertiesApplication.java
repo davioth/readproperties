@@ -1,9 +1,9 @@
-package com.davioth.readproperties;
+package com.davioth.readproperties.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.davioth.readproperties"})
 public class ReadpropertiesApplication {
 
 	public static void main(String[] args) {
